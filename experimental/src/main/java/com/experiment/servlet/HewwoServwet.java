@@ -38,7 +38,7 @@ public class HewwoServwet extends HttpServlet {
             out.println("<title>Servlet HewwoServwet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>HEWWO! HEWWWWOOOOOOO!</h1>");
+            out.println("<h1>HEWWO! HEWWWWOOOOOOOO!</h1>");
             out.println("</body>");
             out.println("</html>");
         }
