@@ -1,0 +1,197 @@
+body {
+    background-color: seashell;
+}
+
+nav {
+    background-color: paleturquoise;
+    border-radius: 3px;
+    padding: 12px 12px;
+    margin: 0;
+    height: auto;
+    font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
+    min-width: 80vmax;
+}
+
+input {
+    border-radius: 6px;
+    padding: 3px;
+}
+
+nav input {
+    width: 20%;
+}
+
+a.logo {
+    padding-right: 18px;
+    height: auto;
+}
+
+li.nav-login {
+    display: inline;
+}
+
+ul.login {
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.appmain {
+    background-color: thistle;
+    margin: 0.5em auto;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 0.8em;
+    min-width: 16em;
+    max-width: 70%;
+    min-height: 80vh;
+    letter-spacing: 0.07em;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.appmain * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.appmain button {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.6em;
+}
+
+div.confirm-screen-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+div.confirm-screen-text span {
+    letter-spacing: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.form-item {
+    min-width: 14em;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+
+div.appmain table {
+    margin: 0.5em auto;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: initial;
+}
+
+div.form-item-text {
+    width: 80%;
+    margin: 0.5em auto;
+}
+
+div.form-item-text textarea{
+    width: 90%;
+}
+
+.happy-text td{
+    font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
+    letter-spacing: initial;
+}
+
+textarea {
+    border-radius: 1em;
+    padding: 0.5em;
+    font-size: 0.8em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button.option-type {
+    width: 14em;
+    height: 14em;
+    border-radius: 1em;
+    margin: 10px;
+    vertical-align: top;
+}
+
+button.login-button {
+    font-size: 1em;
+    border-radius: 9px;
+    background-color: sienna;
+    border-color: sienna;
+    border-style: solid;
+    letter-spacing: -1px;
+    color: mintcream;
+    line-height: 1.4em;
+    font-family: inherit;
+}
+
+button.login-button:hover {
+    background-color: peru;
+}
+
+table {
+    width: 100%;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: lavenderblush;
+}
+
+tbody.selectable tr:hover {
+    background-color: lightcyan;
+}
+
+tbody tr:nth-child(even) td.more-info {
+    background-color: rgb(196, 159, 196);
+}
+
+tbody tr:nth-child(odd) td.more-info {
+    background-color: rgb(228, 199, 208);
+}
+
+tbody tr td.more-info {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+
+tbody tr td.more-info:hover {
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+}
+
+div.comments-container{
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    background-color: mediumpurple;
+    padding: 0.8em;
+    border-radius: 0.5em;
+}
+
+
+div.comment{
+    display: grid;
+    grid-template-columns: 50% auto 2em;
+    grid-template-rows: 1.2em auto;
+    text-align: left;
+    font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
+    letter-spacing: initial;
+    padding-bottom: 0.3em;
+}
+
+div.comment div{
+    overflow: hidden;
+}
+
+.comment-fulltext{
+    grid-area: 2/1/span 1/span 3;
+    height: auto;   
+}

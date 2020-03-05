@@ -1,0 +1,45 @@
+<form id="reimbursement-form">
+    <div class="form-item">
+        <label for="reimbursement-type">Type of event: </label>
+        <br>
+        <select name="reimbursement-type" id="reimbursement-type">
+        </select>
+        <br>
+    </div>
+    <div class="form-item">
+        <label for="tuition-amount">Cost of tuition:</label>
+        <br>
+        <input type="text" name="tuition-amount" id="tuition-amount">
+        <br>
+        <p id = "projected-amt"><br></p>
+    </div>
+    <div class="form-item">
+        <label for="grading-format">Grading format: </label>
+        <select name="grading-format" id="grading-format">
+        </select>
+    </div>
+    <div class="form-item">
+        <label for="event-location">Location:</label>
+        <br>
+        <input type="text" name="location" id="event-location">
+    </div>
+    <div class="form-item">        
+        <label for="event-begin-date">When does the event begin?</label>
+        <br>
+        <input type="date" name="begin-date" id="event-begin-date">
+    </div>
+    <div class="form-item-text">
+        <label for="event-description">Event Description:</label>
+        <br>
+        <textarea rows="5" name="description" id="event-description"></textarea>
+    </div>
+    <div class="form-item-text">
+        <label for="explanation">
+            Please explain your reasons for why you plan to attend:
+        </label>
+        <br>
+        <textarea rows="5'" name="explanation" id="explanation"></textarea>
+    </div>
+    <br>
+    <button type="button" id="submit-reimbursement">Submit Request</button>
+</form>

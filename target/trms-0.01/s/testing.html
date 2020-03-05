@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>TRMS Home Page</title>
+</head>
+<body>
+    <div class="appmain" id="appmain">
+        <h2>Tuition Reimbursement Request Details</h2>
+        <h3 id="urgent-banner"></h3>
+        <table>
+            <tr>
+                <td>Requested by</td>
+                <td>Request time</td>
+                <td>Last action</td>
+            </tr>
+            <tr class="happy-text">
+                <td id="requester-name">Ford Prefect</td>
+                <td id="request-time">2021/11/05 20:18</td>
+                <td id="last-action-time">2021/11/07 09:59</td>
+            </tr>
+            <tr>
+                <td id="reimbursement-type">Type of reimbursement</td>
+                <td id="tuition-amount">Tuition amount</td>
+                <td id="reimbursement-rate">Standard reimbursement rate</td>
+            </tr>
+            <tr class="happy-text">
+                <td>University Course</td>
+                <td>$1800</td>
+                <td>70%</td>
+            </tr>
+            <tr>
+                <td colspan="2">Event/Class location</td>
+                <td>Event/Class date</td>
+            </tr>
+            <tr class="happy-text">
+                <td colspan="2" id="event-location">Real Cool College</td>
+                <td id="event-date">2022/01/28</td>
+            </tr>
+            <tr>
+                <td colspan="3">Description</td>
+            </tr>
+            <tr class="happy-text">
+                <td colspan="3" id="description">I don't wanna be bread!!!! Being bread is fine, actually</td>
+            </tr>
+            <tr>
+                <td colspan="3">Explanation</td>
+            </tr>
+            <tr class="happy-text">
+                <td colspan="3" id="explanation">Sunglasses emoji.</td>
+            </tr>
+            <tr>
+                <td>Supervisor approval</td>
+                <td>Department head approval</td>
+                <td>Benefits coordinator approval</td>
+            </tr>
+            <tr class="happy-text">
+                <td id="supervisor-status">Pending</td>
+                <td id="depthead-status">Pending</td>
+                <td id="benco-status">Pending</td>
+            </tr>
+            <tr>
+                <td>Passing grade confirmed</td>
+                <td>Approved amount</td>
+                <td>Amount altered</td>
+            </tr>
+            <tr class="happy-text">
+                <td id="passing-grade">No</td>
+                <td id="approved-amount"></td>
+                <td id="amount-altered">No</td>
+            </tr>
+            <tr>
+                <td colspan="3">Alteration reason</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="alteration-reason"></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <button type="button" id="goback">Go Back</button>
+        <div id="confirm-warning"></div>
+        <div class="comments-container">
+            <h3 id="comments-headline">Comments History</h3>
+            <div class="comment">
+                <div class="comment-to-from">From: Elsa  To: Anna  2022/01/09 15:58</div>
+                <div class="comment-preview">message</div>
+                <div class="comment-open">vvv</div>
+                <div class="comment-fulltext">full contents of the message go in this one
+                    lots and lots of words never ending words when do they stop never maybe
+                </div>
+            </div>
+            <div class="comment">
+                <div id="comment-to-from">From: Anna  To: Elsa  2022/01/09 15:58</div>
+                <div id="comment-preview">message</div>
+                <div id="comment-open">vvv</div>
+                <div class="comment-fulltext">full contents of the message go in this one
+                    lots and lots of words never ending words when do they stop never maybe
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/menus.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
