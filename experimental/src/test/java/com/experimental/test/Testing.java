@@ -19,6 +19,6 @@ import org.junit.runners.Suite;
 public class Testing {
     @Test
     public void bakaTest(){
-        assertTrue("truue",true);
+        assertTrue("true",true);
     }
 }
